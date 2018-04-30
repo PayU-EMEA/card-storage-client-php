@@ -1,0 +1,65 @@
+<?php
+
+namespace PayU;
+
+class Card
+{
+    /** @var string */
+    private $cardNumber;
+
+    /** @var int */
+    private $cardExpirationMonth;
+
+    /** @var int */
+    private $cardExpirationYear;
+
+    /** @var string */
+    private $cardOwnerName;
+
+    /**
+     * Card constructor.
+     * @param string $cardNumber
+     * @param int $cardExpirationMonth
+     * @param int $cardExpirationYear
+     * @param string $cardOwnerName
+     */
+    public function __construct($cardNumber, $cardExpirationMonth, $cardExpirationYear, $cardOwnerName)
+    {
+        $this->cardNumber = $cardNumber;
+        $this->cardExpirationMonth = $cardExpirationMonth;
+        $this->cardExpirationYear = $cardExpirationYear;
+        $this->cardOwnerName = $cardOwnerName;
+    }
+
+    /**
+     * @return string
+     */
+    public function getCardNumber()
+    {
+        return $this->cardNumber;
+    }
+
+    /**
+     * @return int
+     */
+    public function getExpirationMonth()
+    {
+        return $this->cardExpirationMonth;
+    }
+
+    /**
+     * @return int
+     */
+    public function getExpirationYear()
+    {
+        return $this->cardExpirationYear;
+    }
+
+    /**
+     * @return string
+     */
+    public function getOwnerName()
+    {
+        return $this->cardOwnerName;
+    }
+}
