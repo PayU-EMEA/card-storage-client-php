@@ -3,6 +3,8 @@
   "description": "Card Storage PHP Client",
   "license": "Apache-2.0",
   "keywords": ["payu", "card storage", "api"],
+  "type": "library",
+  "homepage": "https://github.com/PayU/apple-pay",
   "authors": [
     {
       "name": "PayU Romania",
