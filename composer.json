@@ -1,5 +1,5 @@
 {
-  "name": "payu/card-storage-php",
+  "name": "payu/card-storage-client-php",
   "description": "Card Storage PHP Client",
   "license": "Apache-2.0",
   "keywords": ["payu", "card storage", "api"],
