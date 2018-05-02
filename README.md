@@ -1,4 +1,4 @@
-[![Travis CI](https://travis-ci.org/PayU/card-storage-php.svg)](https://travis-ci.org/PayU/card-storage-php) [![Latest Stable Version](https://poser.pugx.org/payu/card-storage-php/v/stable.svg)](https://packagist.org/packages/payu/card-storage-php) [![Total Downloads](https://poser.pugx.org/payu/card-storage-php/downloads.svg)](https://packagist.org/packages/payu/card-storage-php) [![License](https://poser.pugx.org/payu/card-storage-php/license.svg)](https://packagist.org/packages/payu/card-storage-php)
+[![Travis CI](https://travis-ci.org/PayU/card-storage-client-php.svg)](https://travis-ci.org/PayU/card-storage-client-php) [![Latest Stable Version](https://poser.pugx.org/payu/card-storage-client-php/v/stable.svg)](https://packagist.org/packages/payu/card-storage-client-php) [![Total Downloads](https://poser.pugx.org/payu/card-storage-client-php/downloads.svg)](https://packagist.org/packages/payu/card-storage-client-php) [![License](https://poser.pugx.org/payu/card-storage-client-php/license.svg)](https://packagist.org/packages/payu/card-storage-client-php)
 
 ## Prerequisites
 
