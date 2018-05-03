@@ -13,14 +13,14 @@ You can install the library via [Composer](http://getcomposer.org/).
 1. Method #1
  - Run
 ```bash
-composer require payu/card-storage-php
+composer require payu/card-storage-client-php
 ```
 2. Method #2
  - Add this to your composer.json
 ```bash
     {
       "require": {
-        "payu/card-storage-php": "^0.1.0"
+        "payu/card-storage-client-php": "^0.1.0"
       }
     }
 ```
@@ -40,11 +40,11 @@ To use the examples, add the following to the example script:
 
 Obtain the latest version of the PayU Card Storage Client Library with:
 
-    git clone https://github.com/PayU/card-storage-php.git
+    git clone https://github.com/PayU/card-storage-client-php.git
 
 To use the Library, add the following to your PHP script:
 
-    require_once __DIR__ . '/path/to/card-storage-php/src/init.php';
+    require_once __DIR__ . '/path/to/card-storage-client-php/src/init.php';
 
 To use the examples, add the following to the example script:
 
